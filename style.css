@@ -1,0 +1,70 @@
+.black-keys{
+    width: 100%;
+    height: 30vh;
+    background-color: white;
+    margin:0 auto;
+    margin-top:15px;
+    display: flex;
+    border-top: solid white;
+
+}
+.container-fluid{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border: solid;
+    height: 90vh;
+    box-shadow: 8px 8px 8px 8px gray;
+    background-color: gray;
+    /* background-color: rgb(238, 192, 161); */
+}
+.white-keys{
+    width: 100%;
+    height: 30vh;
+    background-color: white;
+    margin:0 auto;
+    display: flex;
+   
+}
+.black-key{
+    cursor: pointer;
+    background-color: black;
+    width: 5%;
+    height: 30vh;
+    margin: 0 auto;
+    margin-left: 3px ;
+    box-shadow: 4px 4px 4px 4px gray;
+}
+.white-key{
+    cursor: pointer;
+    background-color: white;
+    width: 10%;
+    height: 30vh;
+    margin: 0 auto;
+    margin-left: 3px ;
+    box-shadow: 4px 4px 4px 4px gray;
+}
+.white-key-clicked{
+    background-color: gray;
+}
+.text{
+    margin-top: 2%;
+    width: 100%;
+    height: 20vh;
+    /* border: solid; */
+    text-align: center;
+    
+}
+.text p{
+    font-size: 200%;
+    transform: translateY(50%);
+    color: white;
+    font-weight: 800;
+    text-shadow: 5px 5px 5px  khaki;
+    /* border: solid; */
+}
+@media screen and (max-width:540px){
+    .container-fluid{
+        width: 100%;
+    }
+}
